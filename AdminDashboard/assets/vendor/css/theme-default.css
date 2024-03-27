@@ -78,7 +78,7 @@
 
 .app-brand .layout-menu-toggle {
   position: absolute;
-  left: 15rem;
+  right: 15rem;
   border-radius: 50%;
 }
 .app-brand .layout-menu-toggle i {

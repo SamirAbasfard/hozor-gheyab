@@ -133,7 +133,7 @@
               <span class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</span>
             </a>
 
-            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+            <a id="sj-saf---id-aside-menu-arrow" href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
               <i class="bx bx-chevron-left bx-sm align-middle"></i>
             </a>
           </div>
@@ -504,11 +504,11 @@
                       <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                     </div>
                   </a>
-                  <ul class="dropdown-menu dropdown-menu-end">
-                    <li>
+                  <ul class="dropdown-menu ">
+                    <li id="li-avatar">
                       <a class="dropdown-item" href="#">
                         <div class="d-flex">
-                          <div class="flex-shrink-0 me-3">
+                          <div class="flex-shrink-0 " id="div-avatar">
                             <div class="avatar avatar-online">
                               <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                             </div>
@@ -576,13 +576,13 @@
                 <div class="card-body">
                   <form>
                     <div class="row mb-3">
-                      <label class="col-sm-2 col-form-label" for="basic-default-name">Name</label>
-                      <div class="col-sm-10">
+                      <label class="col-sm-1 col-form-label" for="basic-default-name">Name</label>
+                      <div class="col-sm-11">
                         <input type="text" class="form-control" id="basic-default-name" placeholder="John Doe" />
                       </div>
                     </div>
                     <div class="row justify-content-end">
-                      <div class="col-sm-10">
+                      <div class="col-sm-11">
                         <button type="submit" class="btn btn-primary">Send</button>
                       </div>
                     </div>
@@ -594,7 +594,16 @@
             <div class="container-xxl flex-grow-1  cls-sj-saf---content-Table-box" >
               <!-- Bootstrap Table with Header - Dark -->
               <div class="card">
+              <div id="card-bar">
+              <div id="card-bar-right">
                 <h5 class="card-header">Table Name</h5>
+              </div>
+              <div id="card-bar-left">
+                <a href="#" class="btn btn-primary">اضافه کردن +</a>
+              </div>
+              </div>
+                
+                
                 <div class="table-responsive text-nowrap">
                   <table class="table">
                     <thead class="table-dark">
